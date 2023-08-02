@@ -6,6 +6,8 @@ namespace XFrame.Aggregates
 {
     public interface IAggregateRoot
     {
+        IEnumerable<IOccuredEvent> OccuredEvents { get; }
+
         IAggregateName Name { get; }
 
         int Version { get; set; }
