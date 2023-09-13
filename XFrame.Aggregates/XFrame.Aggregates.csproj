@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
 	<PackageId>XFrame.Aggregates</PackageId>
-	<Version>7.0.3</Version>
+	<Version>7.0.4</Version>
 	<Authors>Lwandile Mfundisi</Authors>
 	<Description>XFrame.Aggregates houses concept of defining an aggregate and its events in DDD pattern</Description>
 	<IsPackable>true</IsPackable>

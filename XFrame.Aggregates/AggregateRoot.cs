@@ -15,7 +15,7 @@ namespace XFrame.Aggregates
         where TIdentity : IIdentity
     {
         private bool _exists;
-        private readonly List<IOccuredEvent> _occuredEvents = new List<IOccuredEvent>();
+        private readonly IList<IOccuredEvent> _occuredEvents = new List<IOccuredEvent>();
         private static readonly IAggregateName AggregateName = typeof(TAggregate).GetAggregateName();
         private CircularBuffer<ISourceId> _previousSourceIds = new CircularBuffer<ISourceId>(10);
 
