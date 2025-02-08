@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
 	<PackageId>XFrame.Aggregates</PackageId>
-	<Version>7.0.4</Version>
+	<Version>9.0.0</Version>
 	<Authors>Lwandile Mfundisi</Authors>
 	<Description>XFrame.Aggregates houses concept of defining an aggregate and its events in DDD pattern</Description>
 	<IsPackable>true</IsPackable>
@@ -13,13 +13,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="XFrame.Ids" Version="7.0.2" />
-	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
-	<PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
-	<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
-	<PackageReference Include="XFrame.Metadata" Version="7.0.1" />
-	<PackageReference Include="XFrame.Notifications" Version="7.0.0" />
-	<PackageReference Include="XFrame.VersionTypes" Version="7.0.0" />
+    <PackageReference Include="XFrame.Ids" Version="9.0.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1" />
+	<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.1" />
+	<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.1" />
+	<PackageReference Include="XFrame.Metadata" Version="9.0.0" />
+	<PackageReference Include="XFrame.Notifications" Version="9.0.0" />
+	<PackageReference Include="XFrame.VersionTypes" Version="9.0.0" />
   </ItemGroup>
 	<Target DependsOnTargets="ResolveReferences" Name="CopyProjectReferencesToPackage">
 		<ItemGroup>
